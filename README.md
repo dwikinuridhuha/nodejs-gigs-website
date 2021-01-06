@@ -1,6 +1,6 @@
 # CodeGig
 
-> Simple Job find app for coders. This app uses Node, Express, Sequalize (Postgres) and Handlebars.
+> Simple Job find app for coders. This app uses Node, Express, Sequalize (MySql) and EJS.
 
 ## Quick Start
 
@@ -15,16 +15,4 @@ npm run dev
 ```
 
 ## App Info
-
-### Author
-
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
-
-### Version
-
-1.0.0
-
-### License
-
-This project is licensed under the MIT License
+hasil dari tutorial Travery Media
