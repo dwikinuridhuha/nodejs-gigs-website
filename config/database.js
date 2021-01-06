@@ -1,9 +1,10 @@
 const Sequelize = require('sequelize');
-module.exports = new Sequelize("express_gigs", "root", "", {
-    host: '127.0.0.1',
-    dialect: 'mysql',
-    operatorsAliases: false,
 
+module.exports = new Sequelize("gigs", "", "", {
+    host: 'localhost',
+    dialect: 'sqlite',
+    operatorsAliases: false,
+    storage: './data/database.db',
     pool: {
         max: 5,
         min: 0,
